@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<!--<script>
+			var userAgent = navigator.userAgent;
+			//根据游览器信息跳转到pc站或者moblie站
+			if(userAgent.toLowerCase().indexOf('android')!=-1 || userAgent.toLowerCase().indexOf('iphone')!=-1||userAgent.toLowerCase().indexOf('ipad')!=-1){
+				location.href = "moblie/index.html";
+			}else{
+				location.href="pc/index.html";
+			}
+		</script>-->
+		<script>
+			var userAgent = navigator.userAgent;
+			if(userAgent.toLowerCase().indexOf('andriod')!=-1||userAgent.toLowerCase().indexOf("iphone") != -1 || userAgent.toLowerCase().indexOf("ipad")!=-1){
+				location.href = "moblie/index.html"
+			}else{
+				location.href = "pc/index.html";
+			}
+		</script>
+	</head>
+	<body>
+	</body>
+</html>
